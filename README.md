@@ -20,14 +20,17 @@ Otherwise you're ready for the tutorials.
 ## Step 2 - Install root.
 ### MacOS X:
 Via brew:
-1. If you don’t have brew type `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` (see : https://brew.sh for more information).  
-2. If you have root but version < 6.08/07: `brew upgrade root`. 
-3. Install root: `brew install root`.
+1. Install root: `brew install root`.  
+2. If you don’t have brew type:  
+`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` 
+(see : https://brew.sh for more information).  
+3. If you have root but version < 6.08/07: `brew upgrade root`. 
   
 ### UNIX & MacOS X: 
 #### GCC:
 1. Check the version of gcc: type in terminal `gcc —v`  
 2. If GCC_VERSION < 4.8.1, you need to update your gcc to at least 4.8.1  
+3. Check http://luiarthur.github.io/gccinstall to install gcc locally.  
 
 #### ROOT:
 To install root with TMVA (locally) (linux or Mac):  
