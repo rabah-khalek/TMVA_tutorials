@@ -5,10 +5,10 @@
 Eventhough the TMVA toolkit is supported by ROOT_VERSION >= 5.34/11 , it has been under a lot of developpement and changes.
 For the topical lectures we will work with **ROOT_VERSION >= 6.08/07** which has the needed TMVA built-in.
 
-1) Check your ROOT version with: `root-config --version`  
+a. Check your ROOT version with: `root-config --version`  
 if ROOT_VERSION < 6.08/07 go to step 2.  
   
-2) Check if you have the right TMVA installed:  
+b. Check if you have the right TMVA installed:  
 In your terminal type:  
 ```ruby
 $ root -l
@@ -17,31 +17,31 @@ root [0] TMVA::DataLoader test;
 If you get `Error: Invalid type 'DataLoader' in declaration of 'test'` go to step 2.  
 Otherwise you're ready for the tutorials.
 
-## Step 2 - Install root.
+## Step 2 - Install root
 ### MacOS X:
 Via brew:
-1. Install root: `brew install root`.  
-2. If you don’t have brew type:  
+a. Install root: `brew install root`.  
+b. If you don’t have brew type:  
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` 
 (see : https://brew.sh for more information).  
-3. If you have root but version < 6.08/07: `brew upgrade root`. 
+c. If you have root but version < 6.08/07: `brew upgrade root`. 
   
 ### UNIX & MacOS X: 
 #### GCC:
-1. Check the version of gcc: type in terminal `gcc —v`  
-2. If GCC_VERSION < 4.8.1, you need to update your gcc to at least 4.8.1  
-3. Check http://luiarthur.github.io/gccinstall to install gcc locally.  
+a. Check the version of gcc: type in terminal `gcc —v`  
+b. If GCC_VERSION < 4.8.1, you need to update your gcc to at least 4.8.1  
+c. Check http://luiarthur.github.io/gccinstall to install gcc locally.  
 
 #### ROOT:
 To install root with TMVA (locally) (linux or Mac):  
-1. `git clone http://root.cern.ch/git/root.git`  
-2. `cd root`  
-3.a. For a local installation: `./configure —prefix=path/to/installation` (follow step 3)  
-3.b. For a global installation: `./configure`  
-4. `make`  
-5. `make install`  
+a. `git clone http://root.cern.ch/git/root.git`  
+b. `cd root`  
+c.1. For a local installation: `./configure —prefix=path/to/installation` (follow step 3)  
+c.2. For a global installation: `./configure`  
+d. `make`  
+d. `make install`  
   
-Step 3 - Case of local installation
+## Step 3 - Case of local installation
 Add to your ~/.bashrc:
 ```ruby
 INSTALL_DIR=path/to/installation
