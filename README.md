@@ -5,41 +5,41 @@
 Eventhough the TMVA toolkit is supported by ROOT_VERSION >= 5.34/11 , it has been under a lot of developpement and changes.
 For the topical lectures we will work with **ROOT_VERSION >= 6.08/07** which has the needed TMVA built-in.
 
-a. Check your ROOT version with: `root-config --version`  
+- Check your ROOT version with: `root-config --version`  
 if ROOT_VERSION < 6.08/07 go to step 2.  
   
-b. Check if you have the right TMVA installed:  
+- Check if you have the right TMVA installed:
 In your terminal type:  
 ```ruby
 $ root -l
 root [0] TMVA::DataLoader test;
 ```
 If you get `Error: Invalid type 'DataLoader' in declaration of 'test'` go to step 2.  
-Otherwise you're ready for the tutorials.
+Otherwise you're **ready for the tutorials**.
 
 ## Step 2 - Install root
 ### MacOS X:
 Via brew:
-a. Install root: `brew install root`.  
-b. If you don’t have brew type:  
+- Install root: `brew install root`.  
+- If you don’t have brew type:  
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"` 
 (see : https://brew.sh for more information).  
-c. If you have root but version < 6.08/07: `brew upgrade root`. 
+- If you have root but version < 6.08/07: `brew upgrade root`. 
   
 ### UNIX & MacOS X: 
 #### GCC:
-a. Check the version of gcc: type in terminal `gcc —v`  
-b. If GCC_VERSION < 4.8.1, you need to update your gcc to at least 4.8.1  
-c. Check http://luiarthur.github.io/gccinstall to install gcc locally.  
+- Check the version of gcc: type in terminal `gcc —v`  
+- If GCC_VERSION < 4.8.1, you need to update your gcc to at least 4.8.1  
+- Check http://luiarthur.github.io/gccinstall to install gcc locally.  
 
 #### ROOT:
 To install root with TMVA (locally) (linux or Mac):  
-a. `git clone http://root.cern.ch/git/root.git`  
-b. `cd root`  
-c.1. For a local installation: `./configure —prefix=path/to/installation` (follow step 3)  
-c.2. For a global installation: `./configure`  
-d. `make`  
-d. `make install`  
+- `git clone http://root.cern.ch/git/root.git`  
+- `cd root`  
+- 1. For a local installation: `./configure —prefix=path/to/installation` (follow step 3)  
+- 2. For a global installation: `./configure`  
+- `make`  
+- `make install`  
   
 ## Step 3 - Case of local installation
 Add to your ~/.bashrc:
