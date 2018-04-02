@@ -3,7 +3,7 @@
   
 ## Step 1 - Check ROOT version
 Eventhough the TMVA toolkit is supported by ROOT_VERSION >= 5.34/11 , it has been under a lot of developpement and changes.
-For the topical lectures we will work with ROOT_VERSION >= 6.08/07 which has the needed TMVA built-in.
+For the topical lectures we will work with **ROOT_VERSION >= 6.08/07** which has the needed TMVA built-in.
 
 1) Check your ROOT version with: `root-config --version`  
 if ROOT_VERSION < 6.08/07 go to step 2.  
