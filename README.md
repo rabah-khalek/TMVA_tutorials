@@ -28,7 +28,7 @@ Via brew:
   
 ### UNIX & MacOS X: 
 #### GCC:
-- Check the version of gcc: type in terminal `gcc —v`  
+- Check the version of gcc, type in terminal `gcc —v`  
 - If GCC_VERSION < 4.8.1, you need to update your gcc to at least 4.8.1  
 - Check http://luiarthur.github.io/gccinstall to install gcc locally.  
 
