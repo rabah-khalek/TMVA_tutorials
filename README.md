@@ -36,7 +36,7 @@ Via brew:
 To install root with TMVA (locally) (linux or Mac):  
 - `git clone http://root.cern.ch/git/root.git`  
 - `cd root`  
-- 1. For a local installation: `./configure —prefix=path/to/installation` (follow step 3)  
+- 1. For a local installation: `./configure -—prefix=path/to/installation` (follow step 3)  
 - 2. For a global installation: `./configure`  
 - `make`  
 - `make install`  
