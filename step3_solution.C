@@ -138,7 +138,10 @@ void step3_solution()
 
 
    histNn     ->Write();
+   hist_g     ->SetLineColor(2);
    hist_g     ->Write();
+
+   hist_h     ->SetLineColor(4);
    hist_h     ->Write();
 
    delete reader;
