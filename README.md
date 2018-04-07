@@ -1,5 +1,11 @@
 # Tutorial
-
+The main aim of this tutorial is to learn how to classify actual simulated High Energy Physics data from scratch (starting with a txt file) and build up towards a complete analysis with machine learning methods in three steps: 
+- Implementing data
+- Classification
+- Application
+  
+Many examples of how-to-code are given in the C macros to complete and a solution is proposed for each step. 
+  
 ## Data
 The data to be **classified** in this tutorial is the _MAGIC Gamma Telescope Data Set_ provided by https://archive.ics.uci.edu/ml/datasets/magic+gamma+telescope consisting of 19020 events in total.  
 The data are MC generated to simulate registration of high energy gamma particles in a ground-based atmospheric Cherenkov gamma telescope using the imaging technique.  
